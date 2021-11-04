@@ -1,17 +1,19 @@
 <template>
   <div class="home">
     <Top />
+    <Four/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Top from '../components/Top_test.vue'
-
+import Top from '@/components/Top_test.vue'
+import Four from '@/components/four.vue'
 export default {
   name: 'Home',
   components: {
-    Top
+    Top,
+    Four
   }
 }
 </script>

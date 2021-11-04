@@ -6,6 +6,7 @@ import Vant from 'vant';
 import 'vant/lib/index.css';
 
 import '../public/app.js'
+import '../public/reset.css'
 Vue.use(Vant);
 
 Vue.config.productionTip = false
