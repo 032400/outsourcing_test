@@ -99,7 +99,7 @@
         border: 1px solid #cc8b59;
         color: #cc8b59;
         border-radius: 4px;
-        margin-top: .16rem;
+        margin: .16rem 0 0 -.2rem;
       }
     }
     }
