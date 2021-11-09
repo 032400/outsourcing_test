@@ -15,7 +15,7 @@
       </div>
       <!-- 第三部分 -->
       <div class="three">
-          <div class="san">
+          <!-- <div class="san"> -->
           <!-- 图片 -->
           <div class="three_img">
               <img width="100%" src="../assets/ys.jpg" alt="" srcset="">
@@ -26,7 +26,7 @@
             <div class="three_one">哪个国家留学可以免雅思申请学籍</div>
             <div class="three_two">雅思成绩不好的学生出国留学，希望能去免雅思成绩的国家...</div>
           </div>
-          </div>
+          
       </div>
       <!-- 第四部分 -->
       <div class="four">
@@ -82,20 +82,16 @@ export default {
 .two_hea {
   width: 100%;
   height: auto;
-  /* background: #ccc; */
 }
 .two_tit{
     width: 100%;
     height: .5rem;
-    /* background: rebeccapurple; */
     display: flex;
 }
 .two-icon{
     width: 20%;
     height: .5rem;
-    // background: rgb(247, 245, 247);
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
 }
@@ -106,7 +102,6 @@ export default {
 .two_wz{
     width: 70%;
     height: .5rem;
-    /* background: gainsboro; */
     font-size: .2rem;
     display: flex;
     align-items: center;
@@ -116,7 +111,6 @@ export default {
 .er{
     width: 100%;
     height: .45rem;
-    /* background: cornsilk; */
     display: flex;
     justify-content: space-around;
 }
@@ -134,7 +128,6 @@ export default {
 .er_left{
     width: 48%;
     height: .45rem;
-    /* background: #b4eeee; */
     border-radius: .1rem;
     font-size: .20rem;
     display: flex;
@@ -144,13 +137,12 @@ export default {
 }
 .san{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 /* 第三部分 */
 .three{
     width: 100%;
     height: 1.4rem;
-    /* background: wheat; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -158,65 +150,59 @@ export default {
 .three_img{
     width: 40%;
     height: 1rem;
-    /* background: violet; */
+}
+.three_img>img{
+    width: 100%;
+    height: 100%;
 }
 .three_wz{
     width: 55%;
     height: 1rem;
-    /* background: coral; */
 }
 .three_one{
     width: 100%;
     height: .5rem;
-    /* background: cornsilk; */
     font-size: .16rem;
     font-weight: 700;
 }
 .three_two{
     width: 100%;
     height: .5rem;
-    /* background: rgb(202, 179, 84); */
     font-size: .14rem;
 }
 /* 第四部分 */
 .four{
     width: 100%;
     height: 3.6rem;
-    /* background: lightcyan; */
     margin-top: .2rem;
-    // text-align: -webkit-left;
 }
 .four_one{
     width: 100%;
     height: .45rem;
-    /* background: lightgoldenrodyellow; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .four_left{
     width: 80%;
     height: .45rem;
-    /* background: lightgray; */
     font-size: .14rem;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .four_rig{
     width: 30%;
     height: .45rem;
-    /* background: rgb(159, 209, 224); */
     font-size: .16rem;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #bdbdc2;
+    padding-right: .1rem;
 }
 /* 第五部分 */
 .five{
     width: 100%;
     height: .6rem;
-    /* background: coral; */
     display: flex;
     justify-content: center;
     align-items: center;

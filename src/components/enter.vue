@@ -116,7 +116,7 @@ export default {
     height: .45rem;
     /* background: lightgoldenrodyellow; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .four_left{
     width: 80%;
@@ -125,10 +125,9 @@ export default {
     font-size: .14rem;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .four_rig{
-    width: 30%;
+    // width: 30%;
     height: .45rem;
     /* background: rgb(159, 209, 224); */
     font-size: .16rem;
@@ -136,6 +135,7 @@ export default {
     align-items: center;
     justify-content: center;
     color: #bdbdc2;
+    padding-right: .1rem;
 }
 // 最后
 .ent{

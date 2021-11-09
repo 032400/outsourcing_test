@@ -107,33 +107,29 @@ export default {
     height: .45rem;
     /* background: lightgoldenrodyellow; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .four_left{
     width: 80%;
     height: .45rem;
-    /* background: lightgray; */
     font-size: .14rem;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .four_rig{
-    width: 30%;
+    // width: 30%;
     height: .45rem;
-    /* background: rgb(159, 209, 224); */
     font-size: .16rem;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #bdbdc2;
+    padding-right: .1rem;
 }
 // 最后
 .sev{
     width: 100%;
     height: .6rem;
-    /* background: coral; */
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,7 +139,6 @@ export default {
     height: .4rem;
     border-radius: .1rem;
     font-size: .16rem;
-    // border: 1px solid #cc8b59;
     color: #36477a;;
     display: flex;
     align-items: center;

@@ -43,8 +43,8 @@
       align-content: center;
       align-items: center;
       span{
-        width: 30px;
-        height: 30px;
+        // width: 30px;
+        height: .3rem;
         display: flex;
         span img{
           width: 100%;
